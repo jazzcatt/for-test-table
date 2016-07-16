@@ -1,0 +1,26 @@
+table, td{
+	border: solid 2px;
+	border-collapse: collapse;
+	width: 60%;
+}
+
+td:hover {
+	background-color: #9999CC; 
+}
+
+.check-row{
+	background-color: #9999CC;
+}
+
+.current-page{
+ border-radius: 10px;
+ background-color: #9999CC;
+}
+
+#nav{
+	margin-left: 47%;
+	margin-bottom: 10px;	
+}
+
+
+

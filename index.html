@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<script src='dist/bundle.js'></script>
+		<link rel='stylesheet' href='src/css/table-style.css'>
+	</head>
+	<body>
+		<div id='container'>
+			<input type='button' value='Display checked rows' id='show-but'>
+			<input type='text' id='search' placeholder='Search'>
+			<div id='nav'>
+				<input type='button' id='left' value='<<' disabled='true'>
+				<input type='button' id='digit-left' value='1' class='digit'>
+				<input type='button' id='digit-middle' value='2' class='digit'>
+				<input type='button' id= 'digit-right' value='3' class='digit'>
+				<input type='button' id='right' value='>>'> 
+			</div>
+			<table id='table'>
+				<thead id='thead'>
+					<tr>
+						<td>First name</td>
+						<td>Last name</td>
+						<td>Email</td>
+						<td>Company</td>
+						<td>Created</td>
+						<td>Check</td>
+						<td>Get ID</td>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</body>
+</html>

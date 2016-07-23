@@ -5,7 +5,7 @@
 
 2.there is a search in the table (in the email name),
 
-3. there is a pagination (are used limit and offset).
+3.there is a pagination (are used limit and offset).
 
 download files
 
